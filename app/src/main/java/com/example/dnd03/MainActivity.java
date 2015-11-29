@@ -27,8 +27,6 @@ public class MainActivity extends Activity {
             data.add(m);
         }
 
-
-
         MyAdapter ap = new MyAdapter(this, data);
 
         ListView lv = (ListView)findViewById(R.id.listView);
@@ -36,7 +34,7 @@ public class MainActivity extends Activity {
 
     }
 
-    // http://stackoverflow.com/questions/12116092/android-random-string-generator
+    // see http://stackoverflow.com/questions/12116092/android-random-string-generator
     public static String random() {
         Random generator = new Random();
         StringBuilder randomStringBuilder = new StringBuilder();
