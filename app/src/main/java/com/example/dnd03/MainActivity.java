@@ -27,6 +27,8 @@ public class MainActivity extends Activity {
             data.add(m);
         }
 
+
+
         MyAdapter ap = new MyAdapter(this, data);
 
         ListView lv = (ListView)findViewById(R.id.listView);
